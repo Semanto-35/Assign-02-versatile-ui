@@ -174,5 +174,65 @@
     .title h5, .div1 h5{
         font-size: 1.25rem;
     }
-    /* BMI section ends */    
+    /* BMI section ends */
+
+    /* meet our team section starts */
+    .meet-our-team{
+        width: 90%;
+        height: 100%;
+        margin-top: 65px;
+    }
+    .meet-team-text{
+        width: 85%;
+    }
+    .meet-team-items{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        padding: 20px 0;
+        margin-top: 40px;
+        grid-template-columns: repeat( 1, 1fr);
+    }
+    .team-pic{
+        width: 90%;
+        margin: 0 auto;
+    }
+    /* meet our team section ends */
+
+    /* unique section starts here */
+    /* diet plan starts */
+    .diet-plan-container{
+        width: 90%;
+        height: 100%;
+        margin-top: 65px;
+    }
+    .diet-plan-text{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .diet-plan-items{
+        grid-template-columns: 1fr;
+    }
+    /* diet plan ends */
+    
+    /* membership starts */
+    .membership-container{
+        width: 100%;
+        height: 100%;
+        margin-top: 65px;
+    }
+    .membership-text{
+        width: 90%;
+        margin: 20px auto;
+    }
+    .membership-items{
+        width: 90%;
+        margin: 0 auto;
+        grid-template-columns: 1fr;
+    }
+    .plans{
+        margin: 30px;
+    }
+    /* membership ends */
+    /* unique section ends here*/       
 }

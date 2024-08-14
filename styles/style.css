@@ -576,3 +576,195 @@ th{
     background-color: rgb(61, 53, 53);
 }
 /* BMI section ends here */
+
+/* meet our team section starts here */
+.meet-our-team{
+    max-width: 1060px;
+    height: 782px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+.meet-team-text{
+    max-width: 671px;
+    height: 120px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+.meet-team-items{
+    width: 100%;
+    height: 604px;
+    margin-top: 58px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+}
+.team-pic{
+    width: 326.667px;
+    height: 272px;
+    border-radius: 18px;
+    background: rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+.team-pic h2{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+}
+.team-pic p{
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+}
+.team-pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+/* meet our team section ends here */
+
+
+/* unique section starts here */
+/* diet plan starts */
+.diet-plan-container{
+    max-width: 1060px;
+    margin: 0 auto;
+    margin-top: 90px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 16px;
+}
+.diet-plan-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    gap: 20px;
+}
+.diet-plan-text h3, .membership-text h3{
+    margin-top: 20px;
+}
+.diet-plan-items{
+    width: 100%;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.weight-loss{
+    background-color: #d2b48c;
+    padding: 30px;
+    margin: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.5);
+}
+.weight-loss h5{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+.weight-loss ul{
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+    list-style-type: none;
+}
+.weight-loss ul li{
+    font-size: 1rem;
+    color: rgb(17, 17, 17);
+    margin-bottom: 20px;
+}
+.diet-btn{
+    display: flex;
+    justify-content: center;
+}
+.diet-btn button{
+    padding: 15px 60px;
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    background: rgb(230, 83, 60);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.diet-btn button:hover{
+    background-color: lightsalmon;
+    transition: .3s;
+}
+/* diet plan ends */
+
+/* membership starts*/
+.membership-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 90px;
+    background: rgb(34, 34, 34);
+}
+.membership-text{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    gap: 20px;
+}
+.membership-items{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 30px;
+}
+.plans{
+    background-color: #c0c0c0;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 0 5px 10px rgba(18, 83, 247, 0.5);
+}
+.plans h5{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.plans p{
+    color: red;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+.plans ul{
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.plans ul li{
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+.plans button{
+    padding: 15px 30px;
+    color: rgb(255, 255, 255);
+    background: rgb(230, 83, 60);
+    font-size: 1.125rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.plans button:hover{
+    background-color: rgb(249, 140, 97);
+    transition: .3s;
+}
+/* membership ends */
+/* unique section ends here */
